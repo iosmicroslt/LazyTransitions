@@ -53,7 +53,7 @@ extension PartialTransitionAnimator: TransitionAnimatorType {
         
         containerView.insertSubview(shadowView, aboveSubview: toVC.view)
         
-        let options: UIViewAnimationOptions = [.curveEaseOut]
+        let options: UIView.AnimationOptions = [.curveEaseOut]
         
         
         UIView.animate(withDuration: 0.15, delay: 0, options: options, animations: {
