@@ -60,7 +60,7 @@ extension PartialTransitionAnimator: TransitionAnimatorType {
             fromVC.view.frame = adjustedFrame
             shadowView.alpha = 0.7
         }, completion: { _ in
-            UIView.animate(withDuration: 0.15, delay: 0, options: UIViewAnimationOptions(), animations: {
+            UIView.animate(withDuration: 0.15, delay: 0, options: UIView.AnimationOptions(), animations: {
                 fromVC.view.frame = startingFrame
                 shadowView.alpha = 1
             }, completion: { _ in
